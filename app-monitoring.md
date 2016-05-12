@@ -23,18 +23,18 @@ Source: Cloud Native Computing Foundation
 
 ## Why do we monitor
 
-Remmeber Knight's Capital Group?
+![Knight Capital Group fail](./images/knight-stock.jpg) <!-- .element: class="fragment current-visible" data-fragment-index="1" -->
 
 Note:
 There are many reasons to have monitoring in place.
 Knight's capital group lost $440 when faulty code ran undetected for 45 minutes on their servers
-You never want to get called by a customer about a bad user epxerience
+You never want to get called by a customer about a bad user experience
 
 ---
 
 ## What do we monitor
 
-It depends
+It depends <!-- .element: class="fragment current-visible" data-fragment-index="1" -->
 
 Note:
 You have to determine what matters for your application
@@ -52,7 +52,7 @@ No silver bullet
 
 Note:
 Store front: latency - example amazon
-Markiting website: bounce rate
+Marketing website: bounce rate
 Internal website like a wiki: errors
 Batch processing: accounts payable - monitor queue
 
@@ -65,7 +65,7 @@ Batch processing: accounts payable - monitor queue
 Request Tracing
 
 Note:
-Now going back to my little app, it's a microservice.
+Now going back to my little app, it's a micro service.
 Zipkin
 
 ---
@@ -126,6 +126,8 @@ Monitor in Dev and Test to catch issues before they hit prod
 ---
 
 ## Alerting
+
+Leverage your monitoring data
 
 Note:
 Anomaly detection
