@@ -1,0 +1,5 @@
+---
+applications:
+- name: app-monitoring
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack.git
